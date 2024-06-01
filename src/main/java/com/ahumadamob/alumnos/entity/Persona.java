@@ -14,7 +14,7 @@ import jakarta.validation.constraints.Past;
 import jakarta.validation.constraints.Size;
 
 @Entity
-public class Persona {
+public class Persona extends BaseEntity {
 
 	@Id
 	@Min(1000000)
